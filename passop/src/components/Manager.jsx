@@ -3,13 +3,9 @@ import { useState } from "react";
 const Manager = () => {
   const [form, setForm] = useState({ site: "", name: "", password: "" });
 
-  const savePassword = () => {
-    // console.log(form);
-  };
+  const savePassword = () => {};
 
   const handleChange = (e) => {
-    // console.log("name", e.target.name);
-    // console.log("value", e.target.value);
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
