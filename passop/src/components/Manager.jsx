@@ -4,7 +4,7 @@ const Manager = () => {
   const [form, setForm] = useState({ site: "", name: "", password: "" });
 
   const savePassword = () => {
-    console.log(form);
+    // console.log(form);
   };
 
   const handleChange = (e) => {
